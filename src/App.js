@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import Logo from './Logo';
 import CaughtPokemon from './CaughtPokemon';
 import BestPokemon from './BestPokemon';
+import PokemonMovesSelector from './PokemonMovesSelector';
+import PokemonCity from './PokemonCity';
 
 function App(){
 
@@ -15,6 +17,8 @@ function App(){
       <Logo appName="Pokedex" handleClick={logWhenClicked}/>
       <BestPokemon pokemonName="charmander"/>
       <CaughtPokemon />
+      <PokemonMovesSelector />
+      <PokemonCity /> 
     </div>)
 }
 
